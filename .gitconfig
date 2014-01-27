@@ -1,0 +1,9 @@
+[user]
+	name = Tymon Pitts
+	email = tpitts@wetafx.co.nz
+[core]
+	pager = more
+[color]
+	ui = auto
+[push]
+	default = matching
