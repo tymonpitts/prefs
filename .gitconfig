@@ -2,8 +2,9 @@
 	name = Tymon Pitts
 	email = tpitts@wetafx.co.nz
 [core]
-	pager = more
+	pager = less -R
 [color]
-	ui = auto
+	ui = true
+	diff = true
 [push]
-	default = matching
+	default = upstream

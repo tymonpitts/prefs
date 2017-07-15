@@ -1,2 +1,11 @@
 [
+    { "keys": ["super+d"], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["super+shift+d"], "command": "toggle_comment", "args": { "block": true } },
+    { "keys": ["super+/"], "command": "find_under_expand" },
+    { "keys": ["super+k", "super+/"], "command": "find_under_expand_skip" },
+    { "keys": ["super+shift+/"], "command": "duplicate_line" },
+    { "keys": ["f2"], "command": "find_prev" },
+    { "keys": ["super+h"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+    { "keys": ["super+r"], "command": "show_panel", "args": {"panel": "replace"} },
+    { "keys": ["super+tab"], "command": "indent" }
 ]
