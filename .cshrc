@@ -17,7 +17,7 @@ alias dirs dirs -v
 #
 alias ls ls -CF --si --color=tty
 alias ll ls -latr
-alias l 'ls -la \!* | $PAGER'
+alias l ls -la
 alias lsd 'ls -1 \!* | grep \[/@\]$'
 alias psa ps -a
 
@@ -26,6 +26,7 @@ alias psa ps -a
 #
 alias e. '$EDITOR'
 alias e '\!e.'
+setenv EDITOR sublime_text
 
 # setup cd commands to backup multiple levels
 #
@@ -36,10 +37,8 @@ alias ..... 'cd ../../../../'
 alias ...... 'cd ../../../../../'
 alias ....... 'cd ../../../../../../'
 
-
-
-
-setenv EDITOR sublime_text
+# setup prompt
+#
 if ($?term && $?prompt) set prompt = "\n%B%n@%m: %/\n{%h} %# %b"
 
 # Use file completion, so I don't have to type out the entire filename on the
